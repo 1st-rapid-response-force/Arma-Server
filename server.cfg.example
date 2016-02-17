@@ -28,7 +28,7 @@ persistent = 1;
 
 missionWhitelist[] = {
   "1st_rrf_training.wake"
-}
+};
 
 class Missions
 {
