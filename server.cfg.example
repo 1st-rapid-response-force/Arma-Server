@@ -23,7 +23,7 @@ disableVoN = 1;
 
 BattlEye = 1;
 timeStampFormat = "short";
-forceRotorLibSimulation = 2;
+forceRotorLibSimulation = 1;
 persistent = 1;
 
 missionWhitelist[] = {

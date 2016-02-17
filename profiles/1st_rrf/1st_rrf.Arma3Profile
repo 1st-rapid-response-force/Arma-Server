@@ -1,0 +1,58 @@
+version=1;
+blood=1;
+singleVoice=0;
+gamma=1;
+brightness=1;
+volumeCD=5;
+volumeFX=5;
+volumeSpeech=5;
+soundEnableEAX=1;
+soundEnableHW=0;
+
+class Difficulties
+{
+    class Regular
+    {
+        class Flags
+        {
+
+            /*
+              Difficulty Settings
+            */
+            armor = 1;
+            friendlyTag = 0;
+            enemyTag = 0;
+            mineTag = 1;
+            hud = 1;
+            hudPerm = 1;
+            hudeWp = 0;
+            hudWpPerm = 0;
+            hudGroupInfo = 1;
+            stanceIndicator = 1;
+            autoSpot = 0;
+            map = 0;
+            clockIndicator = 0;
+            3rdPersonView = 1;
+            ultraAI = 0;
+            autoAim = 0;
+            cameraShake = 1;
+            deathMessages = 0;
+            netStats = 0;
+            vonID = 1;
+            extendedInfoType = 1;
+
+            /*
+              Rotor Lib Simulations
+            */
+
+            roughLanding = 1;
+            windEnabled = 1;
+            autoTrimEnabled = 1;
+            stressDamageEnabled = 0;
+        };
+        precisionEnemy = 0.5;
+        precisionFriendly = 1;
+        skillEnemy = 0.6;
+        skillFriendly = 0.75;
+    };
+};
