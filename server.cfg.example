@@ -34,7 +34,7 @@ class Missions
 {
 	class COOP_RRF_TRAINING
 	{
-		template = "1st_rrf_training.wake";
+		template = "training_eden.wake";
 		difficulty = "regular";
 	};
 };
