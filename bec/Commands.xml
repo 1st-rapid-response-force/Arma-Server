@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<BeCommands>
+	<!--
+		Restart mission.
+		Players keeps the same slot as he/she had before the restart.
+
+		Uses ArmA #restart command.
+	-->
+	<command id="0">
+		<name>!res</name>
+		<group>0</group>
+		<cmd>#restart</cmd>
+		<time></time>
+		<text></text>
+		<desc>USAGE :: !res :: INFO -> Restart mission with current player slot selection</desc>
+	</command>
+
+	<!--
+		Lock down the server, No more players will be able to join the server..
+		If your server is password protected. it will also prevent players knowing the password from connecting.
+
+		Uses ArmA #lock command.
+	-->
+	<command id="1">
+		<name>!lck</name>
+		<group>0</group>
+		<cmd>#lock</cmd>
+		<time></time>
+		<text></text>
+		<desc>USAGE :: !lck :: INFO -> Locks the server. No one will be able to join.</desc>
+	</command>
+
+
+	<!--
+		Unlock the server. allow players to be able to connect again.
+
+		Uses ArmA #unlock command.
+	-->
+	<command id="2">
+		<name>!ulck</name>
+		<group>0</group>
+		<cmd>#unlock</cmd>
+		<time></time>
+		<text></text>
+		<desc>USAGE :: !ulck :: INFO -> Unlocks the Server.</desc>
+	</command>
+
+	<!--
+		Kick Command
+
+		The <text> tag defines the reason the player will be given.
+		Like the ban command, the kick support the _name_ place holder in the reason text.
+
+		Uses BE kick command.
+	-->
+	<command id="3">
+		<name>!kick</name>
+		<group>0</group>
+		<cmd>kick</cmd>
+		<time></time>
+		<text>Decision By Admin: _name_</text>
+		<desc>USAGE :: !kick name :: INFO -> Kick a player.</desc>
+	</command>
+
+
+	<!--
+		Show admins online
+		Sends back a private message with a list of Bec admins online.
+	-->
+	<command id="4">
+		<name>!ainf</name>
+		<group>100</group>
+		<cmd>ainfo</cmd>
+		<time></time>
+		<text></text>
+		<desc>USAGE :: !ainf :: INFO -> Show Admins online.</desc>
+	</command>
+
+	<!--
+		Show basic help
+
+		This will list up all commands the admin/player is allowed to execute.
+		If this is set to group 100 Normal players will be able to see all commands in group 100 ("Public commands")
+	-->
+	<command id="5">
+		<name>!help</name>
+		<group>100</group>
+		<cmd>help</cmd>
+		<time></time>
+		<text></text>
+		<desc>USAGE :: [!help] or [!help !command] :: INFO -> Use help to show available commands.</desc>
+	</command>
+
+</BeCommands>

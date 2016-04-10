@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<BEAdmins>
+
+  <admin id="0">
+    <name>2LT. Striker.A</name>
+    <guid>76561198021531457</guid>
+    <group>0</group>
+    <groupname>Command Staff</groupname>
+  </admin>
+
+  <admin id="1">
+    <name>CPT. Rodriguez.G</name>
+    <guid>76561198011615406</guid>
+    <group>0</group>
+    <groupname>Command Staff</groupname>
+  </admin>
+
+</BEAdmins>
