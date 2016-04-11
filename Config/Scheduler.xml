@@ -5,7 +5,7 @@
     <job id="0">
         <day>1,2,3,4,5,6,7</day>
         <start>06:00:00</start>
-        <runtime></runtime>
+        <runtime>000000</runtime>
         <loop>0</loop>
         <cmd>#shutdown</cmd>
     </job>
@@ -13,7 +13,7 @@
     <job id="1">
         <day>1,2,3,4,5,6,7</day>
         <start>05:30:00</start>
-        <runtime></runtime>
+        <runtime>000000</runtime>
         <loop>0</loop>
         <cmd>say -1 This server will restart in 30 minutes. Please begin movement to a safe location.</cmd>
     </job>
@@ -21,7 +21,7 @@
     <job id="2">
         <day>1,2,3,4,5,6,7</day>
         <start>05:45:00</start>
-        <runtime></runtime>
+        <runtime>000000</runtime>
         <loop>0</loop>
         <cmd>say -1 This server will restart in 15 minutes. Please prepare to log off.</cmd>
     </job>
@@ -29,7 +29,7 @@
     <job id="3">
         <day>1,2,3,4,5,6,7</day>
         <start>05:55:00</start>
-        <runtime></runtime>
+        <runtime>000000</runtime>
         <loop>0</loop>
         <cmd>say -1 This server will restart in 5 minutes. Please log off.</cmd>
     </job>
@@ -37,7 +37,7 @@
     <job id="4">
         <day>1,2,3,4,5,6,7</day>
         <start>05:58:00</start>
-        <runtime></runtime>
+        <runtime>000000</runtime>
         <loop>0</loop>
         <cmd>say -1 This server will restart in 2 minutes. Please log off.</cmd>
     </job>
@@ -46,7 +46,7 @@
     <job id="5">
         <day>1,2,3,4,5,6,7</day>
         <start>13:00:00</start>
-        <runtime></runtime>
+        <runtime>000000</runtime>
         <loop>0</loop>
         <cmd>#shutdown</cmd>
     </job>
@@ -54,7 +54,7 @@
     <job id="6">
         <day>1,2,3,4,5,6,7</day>
         <start>12:30:00</start>
-        <runtime></runtime>
+        <runtime>000000</runtime>
         <loop>0</loop>
         <cmd>say -1 This server will restart in 30 minutes. Please begin movement to a safe location.</cmd>
     </job>
@@ -62,7 +62,7 @@
     <job id="7">
         <day>1,2,3,4,5,6,7</day>
         <start>12:45:00</start>
-        <runtime></runtime>
+        <runtime>000000</runtime>
         <loop>0</loop>
         <cmd>say -1 This server will restart in 15 minutes. Please prepare to log off.</cmd>
     </job>
@@ -70,7 +70,7 @@
     <job id="8">
         <day>1,2,3,4,5,6,7</day>
         <start>12:55:00</start>
-        <runtime></runtime>
+        <runtime>000000</runtime>
         <loop>0</loop>
         <cmd>say -1 This server will restart in 5 minutes. Please log off.</cmd>
     </job>
@@ -78,48 +78,48 @@
     <job id="9">
         <day>1,2,3,4,5,6,7</day>
         <start>12:58:00</start>
-        <runtime></runtime>
+        <runtime>000000</runtime>
         <loop>0</loop>
         <cmd>say -1 This server will restart in 2 minutes. Please log off.</cmd>
     </job>
 
     <!-- Restart at 20000 -->
-    <job id="5">
+    <job id="10">
         <day>1,2,3,4,5,6,7</day>
         <start>20:00:00</start>
-        <runtime></runtime>
+        <runtime>000000</runtime>
         <loop>0</loop>
         <cmd>#shutdown</cmd>
     </job>
 
-    <job id="6">
+    <job id="11">
         <day>1,2,3,4,5,6,7</day>
         <start>19:30:00</start>
-        <runtime></runtime>
+        <runtime>000000</runtime>
         <loop>0</loop>
         <cmd>say -1 This server will restart in 30 minutes. Please begin movement to a safe location.</cmd>
     </job>
 
-    <job id="7">
+    <job id="12">
         <day>1,2,3,4,5,6,7</day>
         <start>19:45:00</start>
-        <runtime></runtime>
+        <runtime>000000</runtime>
         <loop>0</loop>
         <cmd>say -1 This server will restart in 15 minutes. Please prepare to log off.</cmd>
     </job>
 
-    <job id="8">
+    <job id="13">
         <day>1,2,3,4,5,6,7</day>
         <start>19:55:00</start>
-        <runtime></runtime>
+        <runtime>000000</runtime>
         <loop>0</loop>
         <cmd>say -1 This server will restart in 5 minutes. Please log off.</cmd>
     </job>
 
-    <job id="9">
+    <job id="14">
         <day>1,2,3,4,5,6,7</day>
         <start>19:58:00</start>
-        <runtime></runtime>
+        <runtime>000000</runtime>
         <loop>0</loop>
         <cmd>say -1 This server will restart in 2 minutes. Please log off.</cmd>
     </job>
